@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Monoton&display=swap');
+
+body {
+    background: url(imgs/background.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+.wrapper{
+    background-color: white;
+    width: 60%;
+    margin: 150px auto 0;
+    padding: 20px 50px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+}
+.title{
+    text-align: center;
+    margin: 20px 0 90px 0;
+}
+.title h1{
+    font-family: 'Monoton', cursive;
+    color: #1875E0;
+    font-size: 50px;
+}
+.title p{
+    color: #ADADAD;
+    font-size: 12px;
+}
+form{
+    width: 45%;
+}
+#divID, #logID{
+  color: #c10707;
+  font-size: 14px;
+}
+div.forms{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row input, .form-group input{
+    height: 30px;
+    margin: 8px 0px;
+    background-color: #F6F6F6;
+    font-size: 14px;
+}
+form h4{
+    margin-bottom: 16px;
+}
+.login h4{
+    margin-bottom: 24px;
+}
+.line{
+    border: 0.6px solid rgba(173, 173, 173, 0.61);
+    margin: 0 0px;
+}
+.btn-signup,.btn-login{
+    margin-top: 16px;
+}
+.flexbtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.codebarre {
+  text-align: center;
+  font-family: 'Libre Barcode 39', cursive;
+  font-size: 24px;
+   margin: 56px auto 0 auto;
+   color: #7D7D7D;
+}
+.signup h4, .login h4{
+  font-size: 16px;
+}
+form .btn{
+  font-size: 13px;
+}
+
+@media (max-width:900px) {
+  .line{
+    display: none;
+  }
+  form{
+      width: 100%;
+  }
+  .wrapper{
+    padding: 20px 20px;
+  }
+}
