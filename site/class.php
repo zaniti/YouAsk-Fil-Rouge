@@ -116,9 +116,10 @@
           // $result = $conn->query($sqlpdel);
           // $sqldel = "DELETE FROM topic WHERE id=$this->id";
           //   return $result = $conn->query($sqldel);
-          $sqldel = "DELETE FROM topic WHERE id=$this->id";
-          return $result = $conn->query($sqldel);
+          
         }
+            $sqldel = "DELETE FROM topic WHERE id=$this->id";
+          return $result = $conn->query($sqldel);
       }
 
         public function updatetopic($conn){
